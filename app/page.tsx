@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { Input } from "@/components/ui/input";
@@ -19,7 +19,16 @@ import {
 } from "@/components/ui/alert-dialog";
 
 export default function Component() {
-  const [showAlert, setShowAlert] = useState(true);
+  const [showAlert, setShowAlert] = useState(false);
+
+  useEffect(() => {
+    const hasSeenAlert = sessionStorage.getItem("hasSeenAlert");
+    if (!hasSeenAlert) {
+      setShowAlert(true);
+      sessionStorage.setItem("hasSeenAlert", "true");
+    }
+  }, []);
+
   return (
     <>
       <InitialAlert isOpen={showAlert} onClose={() => setShowAlert(false)} />
@@ -106,9 +115,9 @@ function InitialAlert({
           <AlertDialogDescription className="text-gray-700">
             <p className="mb-4">
               Welcome to our Demo Application for
-              <strong>Walmart Sparkathon 2024</strong>! This solution is crafted
-              by <strong>Aashutosh Soni</strong> from
-              <strong>Team Geeks.js</strong>.
+              <strong> Walmart Sparkathon 2024</strong>! This solution is
+              crafted by <strong>Aashutosh Soni</strong> from
+              <strong> Team Geeks.js</strong>.
             </p>
             <p className="mb-4">
               Our idea, under the <em>{"Future of Retail"}</em> track, aims to
@@ -117,12 +126,14 @@ function InitialAlert({
             </p>
             <p className="mb-4">
               We propose the integration of a dedicated
-              <strong>RAG_LLM chatbot</strong> in the Walmart app. This chatbot
+              <strong> RAG LLM chatbot</strong> in the Walmart app. This chatbot
               will assist customers in finding products, reading reviews, and
               much more.
             </p>
             <p>
-            { "You'll see a Bot icon on the bottom right corner of the screen. Click on it to start chatting with the bot."}
+              {
+                "You'll see a Bot icon on the bottom right corner of the screen. Click on it to start chatting with the bot."
+              }
             </p>
           </AlertDialogDescription>
         </AlertDialogHeader>

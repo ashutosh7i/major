@@ -83,13 +83,21 @@ export default function Chat() {
   };
 
   return (
-    <div className="fixed bottom-4 right-4 z-50">
+    <div className="fixed bottom-4 right-4 z-1">
       <Dialog>
         <DialogTrigger asChild>
-          <Button size="icon" className="rounded-full bg-red-500 shadow-lg ">
-            <Bot className="h-6 w-6 " />
-            <span className="sr-only">Open chat</span>
-          </Button>
+          <button>
+            <div className="tooltip-container">
+              <span className="tooltip">AI Chat</span>
+              <span className="text">
+                <div className="borde-back">
+                  <div className="icon">
+                    <Bot fill="" className="h-9 w-9"  />
+                  </div>
+                </div>
+              </span>
+            </div>
+          </button>
         </DialogTrigger>
         <DialogContent className="sm:max-w-[500px] w-full h-[600px] flex flex-col">
           <DialogHeader className="border-b px-4 py-3">
