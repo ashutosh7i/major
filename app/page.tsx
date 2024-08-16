@@ -130,10 +130,16 @@ function InitialAlert({
               will assist customers in finding products, reading reviews, and
               much more.
             </p>
-            <p>
+            <p className="mb-4">
               {
                 "You'll see a Bot icon on the bottom right corner of the screen. Click on it to start chatting with the bot."
               }
+            </p>
+            <p>
+              <strong>Demo Video URL: </strong>
+              <a className="text-blue-700" href="https://youtu.be/aKDy0RSZz-A">
+                https://youtu.be/aKDy0RSZz-A
+              </a>
             </p>
           </AlertDialogDescription>
         </AlertDialogHeader>

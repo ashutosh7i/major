@@ -3,7 +3,7 @@ import React from "react";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetTrigger, SheetContent } from "@/components/ui/sheet";
-import { ShoppingCart, Search, Plus, Menu } from "lucide-react";
+import { ShoppingCart, Search, Plus, Menu, Youtube } from "lucide-react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 
@@ -55,6 +55,13 @@ export default function Navbar() {
         </div>
       </div>
       <div className="flex items-center gap-4">
+        <Button
+          onClick={() => {
+            router.push("https://youtu.be/aKDy0RSZz-A");
+          }}
+        >
+          Demo link <Youtube fill="red" className="pl-1" />
+        </Button>
         <Button variant="ghost" size="icon">
           <ShoppingCart className="h-6 w-6" />
           <span className="sr-only">Cart</span>
