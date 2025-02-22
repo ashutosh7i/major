@@ -1,0 +1,3 @@
+1. show my ticket, shows purchased ticket.
+2. show multiple places
+3. show images, indian places add, currency update etc.

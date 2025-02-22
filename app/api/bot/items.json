@@ -1,348 +1,113 @@
 [
   {
     "id": 1,
-    "title": "Realme 7 Pro",
-    "slug": "realme-7-pro",
-    "price": 18000,
-    "imageUrl": "/static/images/rm7pro.jpg",
-    "itemUrl": "product/realme-7-pro",
-    "description": "Realme 7 Pro is a good phone with a 6.4-inch Super AMOLED display, 64MP quad-camera setup, and 4500mAh battery with 65W fast charging.",
-    "specifications": "Display: 6.4-inch Super AMOLED, Processor: Snapdragon 720G, RAM: 6GB/8GB, Storage: 128GB, Camera: 64MP + 8MP + 2MP + 2MP, Battery: 4500mAh, OS: Android 10",
-    "ratings": 4.5,
+    "title": "Taj Mahal",
+    "slug": "taj-mahal",
+    "description": "A UNESCO World Heritage Site, the Taj Mahal is an ivory-white marble mausoleum on the south bank of the Yamuna river in the Indian city of Agra.",
+    "imageUrl": "/images/taj-mahal.jpg",
+    "itemUrl": "place/taj-mahal",
+    "speciality": "Mughal architecture",
+    "artifacts": ["Marble inlay work", "Mughal gardens"],
+    "ratings": 4.9,
     "reviews": [
       {
         "id": 1,
-        "rating": 4.5,
-        "review": "Good phone"
-      },
-      {
-        "id": 2,
-        "rating": 2,
-        "review": "Poor camera quality"
+        "rating": 5,
+        "review": "A breathtaking monument!"
       }
     ]
   },
   {
     "id": 2,
-    "title": "Samsung Galaxy S21",
-    "slug": "samsung-galaxy-s21",
-    "price": 70000,
-    "imageUrl": "/static/images/sms21.jpg",
-    "itemUrl": "product/samsung-galaxy-s21",
-    "description": "Samsung Galaxy S21 with high-end features including a 6.2-inch Dynamic AMOLED display, Exynos 2100 processor, and a 4000mAh battery.",
-    "specifications": "Display: 6.2-inch Dynamic AMOLED, Processor: Exynos 2100, RAM: 8GB, Storage: 128GB/256GB, Camera: 12MP + 64MP + 12MP, Battery: 4000mAh, OS: Android 11",
+    "title": "Indian Museum",
+    "slug": "indian-museum",
+    "description": "Located in Kolkata, the Indian Museum is the largest and oldest museum in India, featuring rare collections of antiques, armor, ornaments, fossils, skeletons, mummies, and Mughal paintings.",
+    "imageUrl": "/images/indian-museum.jpg",
+    "itemUrl": "place/indian-museum",
+    "speciality": "Ancient artifacts",
+    "artifacts": ["Buddhist stupa", "Egyptian mummy", "Ashoka pillar"],
     "ratings": 4.7,
     "reviews": [
       {
         "id": 1,
-        "rating": 5,
-        "review": "Excellent phone with great features"
-      },
-      {
-        "id": 2,
-        "rating": 4,
-        "review": "Good performance but expensive"
+        "rating": 4.5,
+        "review": "A treasure trove of history!"
       }
     ]
   },
   {
     "id": 3,
-    "title": "iPhone 12",
-    "slug": "iphone-12",
-    "price": 80000,
-    "imageUrl": "/static/images/ip12.jpg",
-    "itemUrl": "product/iphone-12",
-    "description": "iPhone 12 with A14 Bionic chip, 6.1-inch Super Retina XDR display, and dual 12MP camera system.",
-    "specifications": "Display: 6.1-inch Super Retina XDR, Processor: A14 Bionic, RAM: 4GB, Storage: 64GB/128GB/256GB, Camera: 12MP + 12MP, Battery: 2815mAh, OS: iOS 14",
-    "ratings": 4.8,
+    "title": "Gateway of India",
+    "slug": "gateway-of-india",
+    "description": "The Gateway of India is an arch-monument built in the early 20th century in the city of Mumbai, India. It was erected to commemorate the landing of King George V and Queen Mary at Apollo Bunder on their visit to India in 1911.",
+    "imageUrl": "/images/gateway-of-india.jpg",
+    "itemUrl": "place/gateway-of-india",
+    "speciality": "Colonial architecture",
+    "artifacts": ["Historical inscriptions", "Colonial-era artifacts"],
+    "ratings": 4.6,
     "reviews": [
       {
         "id": 1,
-        "rating": 5,
-        "review": "Amazing phone with great camera"
-      },
-      {
-        "id": 2,
         "rating": 4.5,
-        "review": "Excellent performance but pricey"
+        "review": "A majestic landmark!"
       }
     ]
   },
   {
     "id": 4,
-    "title": "OnePlus 9",
-    "slug": "oneplus-9",
-    "price": 50000,
-    "imageUrl": "/static/images/op9.jpg",
-    "itemUrl": "product/oneplus-9",
-    "description": "OnePlus 9 with Snapdragon 888, 6.55-inch Fluid AMOLED display, and 4500mAh battery with 65W fast charging.",
-    "specifications": "Display: 6.55-inch Fluid AMOLED, Processor: Snapdragon 888, RAM: 8GB/12GB, Storage: 128GB/256GB, Camera: 48MP + 50MP + 2MP, Battery: 4500mAh, OS: Android 11",
-    "ratings": 4.6,
-    "reviews": [
-      {
-        "id": 1,
-        "rating": 4.5,
-        "review": "Great phone with fast performance"
-      },
-      {
-        "id": 2,
-        "rating": 4,
-        "review": "Good value for money"
-      }
-    ]
-  },
-  {
-    "id": 5,
-    "title": "Google Pixel 5",
-    "slug": "google-pixel-5",
-    "price": 60000,
-    "imageUrl": "/static/images/gpx5.jpg",
-    "itemUrl": "product/google-pixel-5",
-    "description": "Google Pixel 5 with pure Android experience, 6.0-inch OLED display, and 4080mAh battery.",
-    "specifications": "Display: 6.0-inch OLED, Processor: Snapdragon 765G, RAM: 8GB, Storage: 128GB, Camera: 12.2MP + 16MP, Battery: 4080mAh, OS: Android 11",
-    "ratings": 4.4,
-    "reviews": [
-      {
-        "id": 1,
-        "rating": 4.5,
-        "review": "Smooth performance and great camera"
-      },
-      {
-        "id": 2,
-        "rating": 4,
-        "review": "Battery life could be better"
-      }
-    ]
-  },
-  {
-    "id": 6,
-    "title": "Bananas",
-    "slug": "bananas",
-    "price": 50,
-    "imageUrl": "/static/images/banana.jpg",
-    "itemUrl": "product/bananas",
-    "description": "Fresh bananas, rich in potassium, perfect for a healthy snack or smoothie ingredient.",
-    "specifications": "Weight: 1kg, Origin: India, Nutritional Value: Rich in potassium, vitamins, and fiber",
-    "ratings": 4.3,
-    "reviews": [
-      {
-        "id": 1,
-        "rating": 4.5,
-        "review": "Very fresh and tasty"
-      },
-      {
-        "id": 2,
-        "rating": 4,
-        "review": "Good quality"
-      }
-    ]
-  },
-  {
-    "id": 7,
-    "title": "Almonds",
-    "slug": "almonds",
-    "price": 300,
-    "imageUrl": "/static/images/almond.jpg",
-    "itemUrl": "product/almonds",
-    "description": "Premium quality almonds, perfect for snacking or adding to your favorite recipes.",
-    "specifications": "Weight: 500g, Origin: California, Nutritional Value: High in protein, healthy fats, and vitamins",
-    "ratings": 4.6,
-    "reviews": [
-      {
-        "id": 1,
-        "rating": 5,
-        "review": "Very crunchy and fresh"
-      },
-      {
-        "id": 2,
-        "rating": 4.5,
-        "review": "Good quality but expensive"
-      }
-    ]
-  },
-  {
-    "id": 8,
-    "title": "Whole Wheat Bread",
-    "slug": "whole-wheat-bread",
-    "price": 40,
-    "imageUrl": "/static/images/bread.jpg",
-    "itemUrl": "product/whole-wheat-bread",
-    "description": "Healthy whole wheat bread, perfect for sandwiches and toast.",
-    "specifications": "Weight: 400g, Ingredients: Whole wheat flour, water, yeast, salt, Nutritional Value: High in fiber and essential nutrients",
-    "ratings": 4.2,
-    "reviews": [
-      {
-        "id": 1,
-        "rating": 4,
-        "review": "Good taste and healthy"
-      },
-      {
-        "id": 2,
-        "rating": 4.5,
-        "review": "Very fresh"
-      }
-    ]
-  },
-  {
-    "id": 9,
-    "title": "Organic Milk",
-    "slug": "organic-milk",
-    "price": 60,
-    "imageUrl": "/static/images/milk.jpg",
-    "itemUrl": "product/organic-milk",
-    "description": "Organic milk from grass-fed cows, rich in nutrients and free from antibiotics.",
-    "specifications": "Volume: 1 liter, Origin: Local farms, Nutritional Value: High in calcium, protein, and vitamins",
-    "ratings": 4.7,
-    "reviews": [
-      {
-        "id": 1,
-        "rating": 5,
-        "review": "Very fresh and tasty"
-      },
-      {
-        "id": 2,
-        "rating": 4.5,
-        "review": "Good quality milk"
-      }
-    ]
-  },
-  {
-    "id": 10,
-    "title": "Tomato Ketchup",
-    "slug": "tomato-ketchup",
-    "price": 70,
-    "imageUrl": "/static/images/ketchup.jpg",
-    "itemUrl": "product/tomato-ketchup",
-    "description": "Fresh tomato ketchup ready to use for any dish, sandwich, or snack.",
-    "specifications": "Tomato ketchup is made from tomatoes, sugar, and vinegar, with seasonings and spices. The spices and flavors vary, but commonly include onions, allspice, ",
-    "ratings": 4.5,
-    "reviews": [
-      {
-        "id": 1,
-        "rating": 4.5,
-        "review": "Very fresh and good quality"
-      },
-      {
-        "id": 2,
-        "rating": 4,
-        "review": "Good value for money"
-      }
-    ]
-  },
-  {
-    "id": 11,
-    "title": "Tomatoes",
-    "slug": "tomatoes",
-    "price": 30,
-    "imageUrl": "/static/images/tomato.jpg",
-    "itemUrl": "product/tomatoes",
-    "description": "Fresh and juicy tomatoes, perfect for salads, sauces, and cooking.",
-    "specifications": "Weight: 1kg, Origin: Local farms, Nutritional Value: Rich in vitamins A and C, and antioxidants",
-    "ratings": 4.3,
-    "reviews": [
-      {
-        "id": 1,
-        "rating": 4.5,
-        "review": "Very fresh and tasty"
-      },
-      {
-        "id": 2,
-        "rating": 4,
-        "review": "Good quality"
-      }
-    ]
-  },
-  {
-    "id": 12,
-    "title": "Broccoli",
-    "slug": "broccoli",
-    "price": 80,
-    "imageUrl": "/static/images/broccoli.jpg",
-    "itemUrl": "product/broccoli",
-    "description": "Fresh organic broccoli, perfect for steaming, roasting, or adding to your favorite dishes.",
-    "specifications": "Weight: 500g, Origin: Local farms, Nutritional Value: High in fiber, vitamins, and minerals",
-    "ratings": 4.4,
-    "reviews": [
-      {
-        "id": 1,
-        "rating": 4.5,
-        "review": "Very fresh and healthy"
-      },
-      {
-        "id": 2,
-        "rating": 4,
-        "review": "Good quality"
-      }
-    ]
-  },
-  {
-    "id": 13,
-    "title": "Chickpea",
-    "slug": "chickpea",
-    "price": 200,
-    "imageUrl": "/static/images/chickpea.jpg",
-    "itemUrl": "product/chickpea",
-    "description": "fresh protein rich chickpeas for adding to your favorite recipes.",
-    "specifications": "Weight: 1kg, Origin: Local farms, Nutritional Value: High in protein and low in fat",
-    "ratings": 4.6,
-    "reviews": [
-      {
-        "id": 1,
-        "rating": 5,
-        "review": "Very fresh and good quality"
-      },
-      {
-        "id": 2,
-        "rating": 4.5,
-        "review": "Good value for money"
-      }
-    ]
-  },
-  {
-    "id": 14,
-    "title": "Flaxseed",
-    "slug": "flaxseed",
-    "price": 500,
-    "imageUrl": "/static/images/flaxseed.jpg",
-    "itemUrl": "product/flaxseed",
-    "description": "Flaxseed is packed with beneficial nutrients, omega-3 fatty acids, and fiber.",
-    "specifications": "Weight: 500g, Origin: Atlantic, Nutritional Value: High in omega-3 fatty acids and protein",
+    "title": "National Museum",
+    "slug": "national-museum",
+    "description": "The National Museum in New Delhi is one of the largest museums in India. It holds a variety of articles ranging from pre-historic era to modern works of art.",
+    "imageUrl": "/images/national-museum.jpg",
+    "itemUrl": "place/national-museum",
+    "speciality": "Diverse collections",
+    "artifacts": [
+      "Indus Valley artifacts",
+      "Buddhist art",
+      "Miniature paintings"
+    ],
     "ratings": 4.8,
     "reviews": [
       {
         "id": 1,
         "rating": 5,
-        "review": "Very fresh and tasty"
-      },
-      {
-        "id": 2,
-        "rating": 4.5,
-        "review": "Good quality but expensive"
+        "review": "A must-visit for history enthusiasts!"
       }
     ]
   },
   {
-    "id": 15,
-    "title": "Olive Oil",
-    "slug": "olive-oil",
-    "price": 300,
-    "imageUrl": "/static/images/oliveOil.jpg",
-    "itemUrl": "product/olive-oil",
-    "description": "Extra virgin olive oil, perfect for cooking, dressing salads, and dipping bread.",
-    "specifications": "Volume: 1 liter, Origin: Italy, Nutritional Value: High in healthy fats and antioxidants",
+    "id": 5,
+    "title": "Mysore Palace",
+    "slug": "mysore-palace",
+    "description": "Mysore Palace is a historical palace and a royal residence at Mysore in the Indian state of Karnataka. It is the official residence of the Wadiyar dynasty and the seat of the Kingdom of Mysore.",
+    "imageUrl": "/images/mysore-palace.jpg",
+    "itemUrl": "place/mysore-palace",
+    "speciality": "Royal heritage",
+    "artifacts": ["Royal thrones", "Durbar hall", "Palace paintings"],
     "ratings": 4.7,
     "reviews": [
       {
         "id": 1,
-        "name": "John Doe",
-        "rating": 5,
-        "review": "Very good quality"
-      },
-      {
-        "id": 2,
-        "name": "John Doe",
         "rating": 4.5,
-        "review": "Good taste"
+        "review": "A glimpse into royal grandeur!"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Rajwada Palace",
+    "slug": "rajwada-palace",
+    "description": "rajwada Palace is a historical palace and a royal residence at indore in the Indian state of Madhya pradesh. It is the official residence of the holkar dynasty and the seat of the Kingdom of indore.",
+    "imageUrl": "/images/rajwada-palace.jpg",
+    "itemUrl": "https://indore.nic.in/en/history/#:~:text=Rajwada%20is%20a%20historical%20palace,royal%20grandeur%20and%20architectural%20skills.",
+    "speciality": "Royal heritage",
+    "artifacts": ["Royal thrones", "Durbar hall", "Palace paintings"],
+    "ratings": 4.7,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.5,
+        "review": "A glimpse into royal grandeur!"
       }
     ]
   }

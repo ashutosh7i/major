@@ -165,15 +165,36 @@ import { PineconeStore } from "@langchain/pinecone";
 import { createRetrievalChain } from "langchain/chains/retrieval"
 import { JSONLoader } from "langchain/document_loaders/fs/json";
 import { Pinecone as PineconeClient } from "@pinecone-database/pinecone";
+import { BufferMemory } from "langchain/memory";
+import { ConversationChain } from "langchain/chains";
 
-// import { v4 as uuidv4 } from 'uuid';
-
-// Initialize Pinecone client
 const pinecone = new PineconeClient();
 
+async function initializeVectorStore() {
+    const loader = new JSONLoader("./app/api/bot/items.json");
+    const documents = await loader.load();
 
+    const splitter = new RecursiveCharacterTextSplitter({
+        chunkSize: 500,
+        chunkOverlap: 50,
+    });
+    const splitDocs = await splitter.splitDocuments(documents);
 
-// Function to get the existing vector store
+    const embeddings = new OpenAIEmbeddings({
+        model: "text-embedding-3-large",
+    });
+
+    const pineconeIndex = pinecone.Index(process.env.PINECONE_INDEX);
+
+    const vectorStore = await PineconeStore.fromDocuments(splitDocs, embeddings, {
+        pineconeIndex,
+        maxConcurrency: 5,
+    });
+
+    console.log("Vector store initialized with museum data");
+    return vectorStore;
+}
+
 
 async function getVectorStore() {
     const pineconeIndex = pinecone.Index(process.env.PINECONE_INDEX);
@@ -186,14 +207,20 @@ async function getVectorStore() {
 
 export async function POST(request) {
     try {
-        const { query } = await request.json();
+        const { query, sessionId } = await request.json();
 
-        // const vectorStore = await initializeVectorStore();
         const vectorStore = await getVectorStore();
+        // const vectorStore = await initializeVectorStore();
 
         const model = new ChatOpenAI({
             modelName: "gpt-3.5-turbo",
             temperature: 0.3,
+        });
+
+        const memory = new BufferMemory({
+            memoryKey: "chat_history",
+            inputKey: "input",
+            outputKey: "output",
         });
 
         const retriever = vectorStore.asRetriever({
@@ -201,21 +228,22 @@ export async function POST(request) {
         });
 
         const prompt = ChatPromptTemplate.fromMessages([
-            ["system", `You are a knowledgeable store attendant. Use the following product information to answer customer questions accurately and suggest products when appropriate. All prices are in Indian Rupees.
+            ["system", `You are a knowledgeable museum assistant. Use the following information about places and tickets to answer visitor questions accurately and suggest exhibits or tickets when appropriate. All prices are in USD.
 
-        Remember:
-        1. Only provide information that is explicitly stated in the product details.
-        2. If asked about availability, assume all listed products are in stock unless stated otherwise.
-        3. Do not invent or assume any information not present in the product details.
-        4. If asked to compare products, only do so if you have information on all mentioned products.
-        5. Always mention the price when discussing a product.
-        6. If asked about features or specifications, provide all relevant details from the product information.
-        7. When suggesting a product, format your response as a JSON object with a "product" key containing ALL product details exactly as they appear in the original JSON, including id, title, slug, price, imageUrl, itemUrl, description, specifications, ratings, and reviews.
-        8. For general responses or when not suggesting a specific product, format your response as a JSON object with a "message" key.
-        9. Do not modify, omit, or add any fields when returning a product suggestion.
-        10. Strictly follow names in json file for product details, For example if user says show me bananas, you should return the product "banana" if it is in json not "Bananas".
+            Remember:
+            1. Only provide information that is explicitly stated in the place or ticket details.
+            2. If asked about availability, assume all listed places and tickets are available unless stated otherwise.
+            3. Do not invent or assume any information not present in the provided details.
+            4. If asked to compare places or tickets, only do so if you have information on all mentioned items.
+            5. Always mention the price when discussing a ticket.
+            6. If asked about features or artifacts, provide all relevant details from the information.
+            7. When suggesting a place, format your response as a JSON object with a "place" key containing ALL place details exactly as they appear in the original JSON.
+            8. When suggesting a ticket, format your response as a JSON object with a "ticket" key containing ALL ticket details exactly as they appear in the original JSON.
+            9. For general responses or when not suggesting a specific item, format your response as a JSON object with a "message" key.
+            10. Do not modify, omit, or add any fields when returning a place or ticket suggestion.
+            11. In any case don't send any objects or arrays in the response, only send the message.
 
-        Product Information: {context}`],
+            Museum Information: {context}`],
             ["human", "{input}"],
         ]);
 
@@ -231,39 +259,30 @@ export async function POST(request) {
 
         const response = await retrievalChain.invoke({
             input: query,
+            chat_history: memory.chatHistory,
         });
 
-        console.log(response);
+        memory.saveContext({ input: query }, { output: response.answer });
 
-        // Parse the response and format it accordingly
         let formattedResponse;
         try {
             const parsedAnswer = JSON.parse(response.answer);
-            if (parsedAnswer.product) {
-                const requiredFields = [
-                    "id", "title", "slug", "price", "imageUrl", "itemUrl",
-                    "description", "specifications", "ratings", "reviews"
-                ];
-                const hasAllFields = requiredFields.every(field => field in parsedAnswer.product);
-
-                if (hasAllFields) {
-                    formattedResponse = { product: parsedAnswer.product };
-                } else {
-                    formattedResponse = { message: "Product suggestion was incomplete. Please try again." };
-                }
+            if (parsedAnswer.place || parsedAnswer.ticket) {
+                const item = parsedAnswer.place || parsedAnswer.ticket;
+                const itemType = parsedAnswer.place ? 'place' : 'ticket';
+                formattedResponse = { [itemType]: item };
             } else if (parsedAnswer.message) {
                 formattedResponse = { message: parsedAnswer.message };
             } else {
                 formattedResponse = { message: "Unexpected response format. Please try again." };
             }
-
         } catch (error) {
-            formattedResponse = { type: 'message', data: response.answer };
+            formattedResponse = { message: response.answer };
         }
 
         return NextResponse.json(formattedResponse);
     } catch (error) {
         console.error("Error processing request:", error);
-        return NextResponse.json({ type: 'message', data: "An error occurred while processing your request." }, { status: 500 });
+        return NextResponse.json({ message: "An error occurred while processing your request." }, { status: 500 });
     }
 }
