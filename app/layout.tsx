@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Navbar />
-      <body className="pt-20">{children}</body>
+      <body>{children}</body>
       <Chat />
       <Footer />
     </html>

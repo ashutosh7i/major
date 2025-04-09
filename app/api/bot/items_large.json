@@ -1,0 +1,1896 @@
+[
+  {
+    "id": 1,
+    "title": "Taj Mahal",
+    "slug": "taj-mahal",
+    "description": "A UNESCO World Heritage Site, the Taj Mahal is an ivory-white marble mausoleum on the south bank of the Yamuna river in the Indian city of Agra.",
+    "imageUrl": "/images/taj-mahal.jpg",
+    "itemUrl": "place/taj-mahal",
+    "speciality": "Mughal architecture",
+    "artifacts": [
+      "Marble inlay work",
+      "Mughal gardens"
+    ],
+    "ratings": 4.9,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 5,
+        "review": "A breathtaking monument!"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Indian Museum",
+    "slug": "indian-museum",
+    "description": "Located in Kolkata, the Indian Museum is the largest and oldest museum in India, featuring rare collections of antiques, armor, ornaments, fossils, skeletons, mummies, and Mughal paintings.",
+    "imageUrl": "/images/indian-museum.jpg",
+    "itemUrl": "place/indian-museum",
+    "speciality": "Ancient artifacts",
+    "artifacts": [
+      "Buddhist stupa",
+      "Egyptian mummy",
+      "Ashoka pillar"
+    ],
+    "ratings": 4.7,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.5,
+        "review": "A treasure trove of history!"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Gateway of India",
+    "slug": "gateway-of-india",
+    "description": "The Gateway of India is an arch-monument built in the early 20th century in the city of Mumbai, India. It was erected to commemorate the landing of King George V and Queen Mary at Apollo Bunder on their visit to India in 1911.",
+    "imageUrl": "/images/gateway-of-india.jpg",
+    "itemUrl": "place/gateway-of-india",
+    "speciality": "Colonial architecture",
+    "artifacts": [
+      "Historical inscriptions",
+      "Colonial-era artifacts"
+    ],
+    "ratings": 4.6,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.5,
+        "review": "A majestic landmark!"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "National Museum",
+    "slug": "national-museum",
+    "description": "The National Museum in New Delhi is one of the largest museums in India. It holds a variety of articles ranging from pre-historic era to modern works of art.",
+    "imageUrl": "/images/national-museum.jpg",
+    "itemUrl": "place/national-museum",
+    "speciality": "Diverse collections",
+    "artifacts": [
+      "Indus Valley artifacts",
+      "Buddhist art",
+      "Miniature paintings"
+    ],
+    "ratings": 4.8,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 5,
+        "review": "A must-visit for history enthusiasts!"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Mysore Palace",
+    "slug": "mysore-palace",
+    "description": "Mysore Palace is a historical palace and a royal residence at Mysore in the Indian state of Karnataka. It is the official residence of the Wadiyar dynasty and the seat of the Kingdom of Mysore.",
+    "imageUrl": "/images/mysore-palace.jpg",
+    "itemUrl": "place/mysore-palace",
+    "speciality": "Royal heritage",
+    "artifacts": [
+      "Royal thrones",
+      "Durbar hall",
+      "Palace paintings"
+    ],
+    "ratings": 4.7,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.5,
+        "review": "A glimpse into royal grandeur!"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Aga Khan Palace Building, Pune",
+    "slug": "AKP",
+    "description": "A historical palace in Pune that served as a prison for Mahatma Gandhi and other freedom fighters during the Quit India Movement.",
+    "imageUrl": "/images/aga-khan-palace.jpg",
+    "itemUrl": "place/aga-khan-palace",
+    "speciality": "Mumbai",
+    "artifacts": [
+      "Historical artifacts",
+      "Freedom movement memorabilia"
+    ],
+    "ratings": 4.6,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.5,
+        "review": "Rich in historical significance!"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Agra Fort",
+    "slug": "AGF",
+    "description": "A UNESCO World Heritage site, Agra Fort is a historical fort in the city of Agra in India. It was the main residence of the emperors of the Mughal Dynasty until 1638.",
+    "imageUrl": "/images/agra-fort.jpg",
+    "itemUrl": "place/agra-fort",
+    "speciality": "Agra",
+    "artifacts": [
+      "Mughal architecture",
+      "Historical monuments"
+    ],
+    "ratings": 4.7,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.8,
+        "review": "A magnificent fort with rich history!"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Ahom Raja's Palace",
+    "slug": "ARP",
+    "description": "A historical palace that was the residence of the Ahom kings, showcasing the architectural brilliance of the Ahom dynasty.",
+    "imageUrl": "/images/ahom-palace.jpg",
+    "itemUrl": "place/ahom-palace",
+    "speciality": "Guwahati",
+    "artifacts": [
+      "Ahom architecture",
+      "Royal artifacts"
+    ],
+    "ratings": 4.5,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.3,
+        "review": "A glimpse into Ahom history!"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Ajanta caves",
+    "slug": "AJA",
+    "description": "A UNESCO World Heritage site featuring ancient Buddhist cave monuments dating from the 2nd century BCE to about 480 CE.",
+    "imageUrl": "/images/ajanta-caves.jpg",
+    "itemUrl": "place/ajanta-caves",
+    "speciality": "Aurangabad",
+    "artifacts": [
+      "Buddhist paintings",
+      "Rock-cut architecture"
+    ],
+    "ratings": 4.8,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.9,
+        "review": "Spectacular ancient Buddhist art!"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Akbar Tomb Sikandra",
+    "slug": "ATS",
+    "description": "The tomb of the Mughal emperor Akbar, located in Sikandra, near Agra. It represents a unique blend of architectural styles.",
+    "imageUrl": "/images/akbar-tomb.jpg",
+    "itemUrl": "place/akbar-tomb",
+    "speciality": "Agra",
+    "artifacts": [
+      "Mughal architecture",
+      "Historical inscriptions"
+    ],
+    "ratings": 4.6,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.5,
+        "review": "A magnificent tribute to Emperor Akbar!"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Ancient Buddhist Remains comprising monastery stupa, rock sculptures, inscriptions etc.Mansar",
+    "slug": "ARM",
+    "description": "Ancient Buddhist archaeological site featuring monastery remains, stupas, rock sculptures, and historical inscriptions.",
+    "imageUrl": "/images/ancient-buddhist-remains.jpg",
+    "itemUrl": "place/ancient-buddhist-remains",
+    "speciality": "Nagpur",
+    "artifacts": [
+      "Buddhist monastery",
+      "Rock sculptures",
+      "Historical inscriptions"
+    ],
+    "ratings": 4.5,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.4,
+        "review": "Fascinating Buddhist heritage site!"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Ancient Buddhist Site know as Chaukhandi Stupa",
+    "slug": "BCS",
+    "description": "A significant Buddhist site featuring the Chaukhandi Stupa, an ancient monument of historical importance.",
+    "imageUrl": "/images/chaukhandi-stupa.jpg",
+    "itemUrl": "place/chaukhandi-stupa",
+    "speciality": "Sarnath",
+    "artifacts": [
+      "Buddhist stupa",
+      "Ancient architecture"
+    ],
+    "ratings": 4.4,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.3,
+        "review": "Important Buddhist historical site!"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Ancient Palace Leh",
+    "slug": "APL",
+    "description": "A historical palace in Leh showcasing the rich cultural heritage of the region.",
+    "imageUrl": "/images/ancient-palace-leh.jpg",
+    "itemUrl": "place/ancient-palace-leh",
+    "speciality": "Leh",
+    "artifacts": [
+      "Royal architecture",
+      "Historical artifacts"
+    ],
+    "ratings": 4.3,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.2,
+        "review": "Beautiful historical palace!"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Ancient palaces attributed to Raja Suchet Singh, Ramnagar",
+    "slug": "RSU",
+    "description": "Historical palaces associated with Raja Suchet Singh, showcasing the architectural grandeur of the era.",
+    "imageUrl": "/images/raja-suchet-singh-palace.jpg",
+    "itemUrl": "place/raja-suchet-singh-palace",
+    "speciality": "Srinagar",
+    "artifacts": [
+      "Royal architecture",
+      "Historical monuments"
+    ],
+    "ratings": 4.4,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.3,
+        "review": "Rich historical heritage!"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Ancient Remains on both Udaigiri & Khandagiri Hills",
+    "slug": "ARU",
+    "description": "Ancient archaeological remains spread across the Udaigiri and Khandagiri hills, featuring historical significance.",
+    "imageUrl": "/images/udaigiri-khandagiri.jpg",
+    "itemUrl": "place/udaigiri-khandagiri",
+    "speciality": "Bhubaneshwar",
+    "artifacts": [
+      "Ancient architecture",
+      "Historical remains"
+    ],
+    "ratings": 4.5,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.4,
+        "review": "Fascinating ancient site!"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Ancient Ruins Vaishali",
+    "slug": "ARV",
+    "description": "Historical ruins in Vaishali, an important ancient city with rich cultural heritage.",
+    "imageUrl": "/images/vaishali-ruins.jpg",
+    "itemUrl": "place/vaishali-ruins",
+    "speciality": "Patna",
+    "artifacts": [
+      "Ancient ruins",
+      "Historical artifacts"
+    ],
+    "ratings": 4.3,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.2,
+        "review": "Important historical site!"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Ancient Site and Adamgarh rock shelter, Kalamdi Rasuliya and kishanpur",
+    "slug": "AKK",
+    "description": "Ancient archaeological site featuring rock shelters and historical remains.",
+    "imageUrl": "/images/adamgarh-rock-shelter.jpg",
+    "itemUrl": "place/adamgarh-rock-shelter",
+    "speciality": "Jabalpur",
+    "artifacts": [
+      "Rock shelters",
+      "Ancient remains"
+    ],
+    "ratings": 4.2,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.1,
+        "review": "Interesting archaeological site!"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Ancient Site of Vikramshila",
+    "slug": "ASV",
+    "description": "Historical site of Vikramshila, an important ancient center of learning.",
+    "imageUrl": "/images/vikramshila.jpg",
+    "itemUrl": "place/vikramshila",
+    "speciality": "Patna",
+    "artifacts": [
+      "Ancient architecture",
+      "Historical remains"
+    ],
+    "ratings": 4.4,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.3,
+        "review": "Rich historical significance!"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Ancient Site, Bhangarh",
+    "slug": "ASB",
+    "description": "Ancient archaeological site in Bhangarh with historical significance.",
+    "imageUrl": "/images/bhangarh.jpg",
+    "itemUrl": "place/bhangarh",
+    "speciality": "Jaipur",
+    "artifacts": [
+      "Ancient ruins",
+      "Historical architecture"
+    ],
+    "ratings": 4.3,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.2,
+        "review": "Fascinating ancient site!"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Archaeological Museum, Aihole",
+    "slug": "AMA",
+    "description": "Museum showcasing archaeological artifacts from the Aihole region.",
+    "imageUrl": "/images/aihole-museum.jpg",
+    "itemUrl": "place/aihole-museum",
+    "speciality": "Dharwad",
+    "artifacts": [
+      "Archaeological artifacts",
+      "Historical exhibits"
+    ],
+    "ratings": 4.2,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.1,
+        "review": "Interesting collection of artifacts!"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Archaeological Museum, Halebidu",
+    "slug": "BID",
+    "description": "Museum displaying archaeological artifacts from the historic site of Halebidu.",
+    "imageUrl": "/images/halebidu-museum.jpg",
+    "itemUrl": "place/halebidu-museum",
+    "speciality": "Bangalore",
+    "artifacts": [
+      "Archaeological exhibits",
+      "Historical artifacts"
+    ],
+    "ratings": 4.3,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.2,
+        "review": "Rich collection of historical artifacts!"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Archaeological Museum, Ratnagiri",
+    "slug": "AMR",
+    "description": "Museum showcasing archaeological findings from the Ratnagiri region.",
+    "imageUrl": "/images/ratnagiri-museum.jpg",
+    "itemUrl": "place/ratnagiri-museum",
+    "speciality": "Puri",
+    "artifacts": [
+      "Archaeological exhibits",
+      "Historical artifacts"
+    ],
+    "ratings": 4.2,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.1,
+        "review": "Interesting historical collection!"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Archaeological Museum, Vijayapura",
+    "slug": "AMV",
+    "description": "Museum displaying archaeological artifacts from Vijayapura region.",
+    "imageUrl": "/images/vijayapura-museum.jpg",
+    "itemUrl": "place/vijayapura-museum",
+    "speciality": "Dharwad",
+    "artifacts": [
+      "Archaeological exhibits",
+      "Historical artifacts"
+    ],
+    "ratings": 4.2,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.1,
+        "review": "Fascinating historical collection!"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Archaeological Site Museum, Amaravati",
+    "slug": "ZAM",
+    "description": "Museum showcasing archaeological findings from the Amaravati region.",
+    "imageUrl": "/images/amaravati-museum.jpg",
+    "itemUrl": "place/amaravati-museum",
+    "speciality": "Amaravati",
+    "artifacts": [
+      "Archaeological exhibits",
+      "Historical artifacts"
+    ],
+    "ratings": 4.3,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.2,
+        "review": "Rich historical heritage!"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Archaeological Site Museum, Badami",
+    "slug": "ZBA",
+    "description": "Museum displaying archaeological artifacts from the Badami region.",
+    "imageUrl": "/images/badami-museum.jpg",
+    "itemUrl": "place/badami-museum",
+    "speciality": "Dharwad",
+    "artifacts": [
+      "Archaeological exhibits",
+      "Historical artifacts"
+    ],
+    "ratings": 4.2,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.1,
+        "review": "Interesting historical collection!"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Archaeological Site Museum, Bodhgaya",
+    "slug": "ZBO",
+    "description": "Museum showcasing archaeological findings from the Bodhgaya region.",
+    "imageUrl": "/images/bodhgaya-museum.jpg",
+    "itemUrl": "place/bodhgaya-museum",
+    "speciality": "Patna",
+    "artifacts": [
+      "Archaeological exhibits",
+      "Historical artifacts"
+    ],
+    "ratings": 4.4,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.3,
+        "review": "Rich Buddhist heritage!"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Archaeological Site Museum, Chanderi",
+    "slug": "ZCH",
+    "description": "Museum displaying archaeological artifacts from the Chanderi region.",
+    "imageUrl": "/images/chanderi-museum.jpg",
+    "itemUrl": "place/chanderi-museum",
+    "speciality": "Bhopal",
+    "artifacts": [
+      "Archaeological exhibits",
+      "Historical artifacts"
+    ],
+    "ratings": 4.2,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.1,
+        "review": "Fascinating historical collection!"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Archaeological Site Museum, Chandragiri",
+    "slug": "SMC",
+    "description": "Museum showcasing archaeological findings from the Chandragiri region.",
+    "imageUrl": "/images/chandragiri-museum.jpg",
+    "itemUrl": "place/chandragiri-museum",
+    "speciality": "Amaravati",
+    "artifacts": [
+      "Archaeological exhibits",
+      "Historical artifacts"
+    ],
+    "ratings": 4.3,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.2,
+        "review": "Rich historical heritage!"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Archaeological Site Museum, Gwalior",
+    "slug": "AGW",
+    "description": "Museum displaying archaeological artifacts from the Gwalior region.",
+    "imageUrl": "/images/gwalior-museum.jpg",
+    "itemUrl": "place/gwalior-museum",
+    "speciality": "Bhopal",
+    "artifacts": [
+      "Archaeological exhibits",
+      "Historical artifacts"
+    ],
+    "ratings": 4.2,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.1,
+        "review": "Interesting historical collection!"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Archaeological Site Museum, Kalibangan",
+    "slug": "KAL",
+    "description": "Museum showcasing archaeological findings from the Kalibangan region.",
+    "imageUrl": "/images/kalibangan-museum.jpg",
+    "itemUrl": "place/kalibangan-museum",
+    "speciality": "Jodhpur",
+    "artifacts": [
+      "Archaeological exhibits",
+      "Historical artifacts"
+    ],
+    "ratings": 4.3,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.2,
+        "review": "Rich historical heritage!"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Archaeological Site Museum, Konark",
+    "slug": "ZKO",
+    "description": "Museum displaying archaeological artifacts from the Konark region.",
+    "imageUrl": "/images/konark-museum.jpg",
+    "itemUrl": "place/konark-museum",
+    "speciality": "Puri",
+    "artifacts": [
+      "Archaeological exhibits",
+      "Historical artifacts"
+    ],
+    "ratings": 4.3,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.2,
+        "review": "Rich historical heritage!"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Archaeological Site Museum, Kondapur",
+    "slug": "ZKD",
+    "description": "Museum showcasing archaeological findings from the Kondapur region.",
+    "imageUrl": "/images/kondapur-museum.jpg",
+    "itemUrl": "place/kondapur-museum",
+    "speciality": "Hyderabad",
+    "artifacts": [
+      "Archaeological exhibits",
+      "Historical artifacts"
+    ],
+    "ratings": 4.2,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.1,
+        "review": "Interesting historical collection!"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Archaeological Site Museum, Lothal",
+    "slug": "ZLO",
+    "description": "Museum displaying archaeological artifacts from the Lothal region.",
+    "imageUrl": "/images/lothal-museum.jpg",
+    "itemUrl": "place/lothal-museum",
+    "speciality": "Vadodara",
+    "artifacts": [
+      "Archaeological exhibits",
+      "Historical artifacts"
+    ],
+    "ratings": 4.2,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.1,
+        "review": "Fascinating historical collection!"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Archaeological Site Museum, Nagarjunkonda",
+    "slug": "SMN",
+    "description": "Museum showcasing archaeological findings from the Nagarjunkonda region.",
+    "imageUrl": "/images/nagarjunkonda-museum.jpg",
+    "itemUrl": "place/nagarjunkonda-museum",
+    "speciality": "Amaravati",
+    "artifacts": [
+      "Archaeological exhibits",
+      "Historical artifacts"
+    ],
+    "ratings": 4.3,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.2,
+        "review": "Rich historical heritage!"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Archaeological Site Museum, Nalanda",
+    "slug": "ZNA",
+    "description": "Museum displaying archaeological artifacts from the Nalanda region.",
+    "imageUrl": "/images/nalanda-museum.jpg",
+    "itemUrl": "place/nalanda-museum",
+    "speciality": "Patna",
+    "artifacts": [
+      "Archaeological exhibits",
+      "Historical artifacts"
+    ],
+    "ratings": 4.4,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.3,
+        "review": "Rich Buddhist heritage!"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Archaeological Site Museum, Old Goa",
+    "slug": "AMG",
+    "description": "Museum showcasing archaeological findings from the Old Goa region.",
+    "imageUrl": "/images/old-goa-museum.jpg",
+    "itemUrl": "place/old-goa-museum",
+    "speciality": "Goa",
+    "artifacts": [
+      "Archaeological exhibits",
+      "Historical artifacts"
+    ],
+    "ratings": 4.2,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.1,
+        "review": "Interesting historical collection!"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Archaeological Site Museum, Ropar",
+    "slug": "ZRP",
+    "description": "Museum displaying archaeological artifacts from the Ropar region.",
+    "imageUrl": "/images/ropar-museum.jpg",
+    "itemUrl": "place/ropar-museum",
+    "speciality": "Chandigarh",
+    "artifacts": [
+      "Archaeological exhibits",
+      "Historical artifacts"
+    ],
+    "ratings": 4.2,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.1,
+        "review": "Fascinating historical collection!"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Archaeological Site Museum, Sanchi",
+    "slug": "ZSA",
+    "description": "Museum showcasing archaeological findings from the Sanchi region.",
+    "imageUrl": "/images/sanchi-museum.jpg",
+    "itemUrl": "place/sanchi-museum",
+    "speciality": "Bhopal",
+    "artifacts": [
+      "Archaeological exhibits",
+      "Historical artifacts"
+    ],
+    "ratings": 4.3,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.2,
+        "review": "Rich Buddhist heritage!"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Archaeological Site Museum, Sri Suryapahar",
+    "slug": "ZSS",
+    "description": "Museum displaying archaeological artifacts from the Sri Suryapahar region.",
+    "imageUrl": "/images/sri-suryapahar-museum.jpg",
+    "itemUrl": "place/sri-suryapahar-museum",
+    "speciality": "Guwahati",
+    "artifacts": [
+      "Archaeological exhibits",
+      "Historical artifacts"
+    ],
+    "ratings": 4.2,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.1,
+        "review": "Interesting historical collection!"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Archaeological Site Museum, Vaishali",
+    "slug": "ZVA",
+    "description": "Museum showcasing archaeological findings from the Vaishali region.",
+    "imageUrl": "/images/vaishali-museum.jpg",
+    "itemUrl": "place/vaishali-museum",
+    "speciality": "Patna",
+    "artifacts": [
+      "Archaeological exhibits",
+      "Historical artifacts"
+    ],
+    "ratings": 4.3,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.2,
+        "review": "Rich historical heritage!"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "title": "Asokan Rock Edict, Junagadh",
+    "slug": "ARE",
+    "description": "Ancient rock edicts of Emperor Ashoka, featuring important historical inscriptions.",
+    "imageUrl": "/images/asokan-rock-edict.jpg",
+    "itemUrl": "place/asokan-rock-edict",
+    "speciality": "Rajkot",
+    "artifacts": [
+      "Rock edicts",
+      "Historical inscriptions"
+    ],
+    "ratings": 4.4,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.3,
+        "review": "Important historical inscriptions!"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "title": "Aurangabad Caves",
+    "slug": "AUC",
+    "description": "Ancient Buddhist caves featuring rock-cut architecture and historical significance.",
+    "imageUrl": "/images/aurangabad-caves.jpg",
+    "itemUrl": "place/aurangabad-caves",
+    "speciality": "Aurangabad",
+    "artifacts": [
+      "Rock-cut architecture",
+      "Buddhist art"
+    ],
+    "ratings": 4.5,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.4,
+        "review": "Spectacular ancient caves!"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "title": "Awantiswami Temple",
+    "slug": "ATA",
+    "description": "Ancient temple dedicated to Lord Vishnu, showcasing historical architecture.",
+    "imageUrl": "/images/awantiswami-temple.jpg",
+    "itemUrl": "place/awantiswami-temple",
+    "speciality": "Srinagar",
+    "artifacts": [
+      "Temple architecture",
+      "Historical sculptures"
+    ],
+    "ratings": 4.3,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.2,
+        "review": "Beautiful historical temple!"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Baba Pyare, KhapraKodia Caves",
+    "slug": "BPK",
+    "description": "Ancient caves featuring historical significance and architectural elements.",
+    "imageUrl": "/images/khaprakodia-caves.jpg",
+    "itemUrl": "place/khaprakodia-caves",
+    "speciality": "Rajkot",
+    "artifacts": [
+      "Cave architecture",
+      "Historical remains"
+    ],
+    "ratings": 4.2,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.1,
+        "review": "Interesting historical site!"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "title": "Badal Mahal Gateway, Chanderi",
+    "slug": "BMG",
+    "description": "Historical gateway showcasing architectural grandeur of the past.",
+    "imageUrl": "/images/badal-mahal-gateway.jpg",
+    "itemUrl": "place/badal-mahal-gateway",
+    "speciality": "Bhopal",
+    "artifacts": [
+      "Gateway architecture",
+      "Historical monuments"
+    ],
+    "ratings": 4.2,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.1,
+        "review": "Magnificent historical gateway!"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "title": "Baori at Abhaneri",
+    "slug": "BAA",
+    "description": "Ancient stepwell featuring intricate architecture and historical significance.",
+    "imageUrl": "/images/abhaneri-baori.jpg",
+    "itemUrl": "place/abhaneri-baori",
+    "speciality": "Jaipur",
+    "artifacts": [
+      "Stepwell architecture",
+      "Historical water system"
+    ],
+    "ratings": 4.3,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.2,
+        "review": "Fascinating historical stepwell!"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "title": "Bekal Fort",
+    "slug": "BFP",
+    "description": "Historical fort showcasing military architecture and strategic importance.",
+    "imageUrl": "/images/bekal-fort.jpg",
+    "itemUrl": "place/bekal-fort",
+    "speciality": "Thrissur",
+    "artifacts": [
+      "Fort architecture",
+      "Military history"
+    ],
+    "ratings": 4.4,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.3,
+        "review": "Impressive historical fort!"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "title": "Bellary Fort",
+    "slug": "BEL",
+    "description": "Ancient fort featuring historical significance and architectural elements.",
+    "imageUrl": "/images/bellary-fort.jpg",
+    "itemUrl": "place/bellary-fort",
+    "speciality": "Hampi",
+    "artifacts": [
+      "Fort architecture",
+      "Historical monuments"
+    ],
+    "ratings": 4.2,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.1,
+        "review": "Rich historical heritage!"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "title": "Bir Singh Palace Datia",
+    "slug": "BSD",
+    "description": "Historical palace showcasing architectural grandeur and cultural heritage.",
+    "imageUrl": "/images/bir-singh-palace.jpg",
+    "itemUrl": "place/bir-singh-palace",
+    "speciality": "Bhopal",
+    "artifacts": [
+      "Palace architecture",
+      "Historical artifacts"
+    ],
+    "ratings": 4.3,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.2,
+        "review": "Beautiful historical palace!"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "title": "Bishnudol",
+    "slug": "BIJ",
+    "description": "Ancient temple dedicated to Lord Vishnu, featuring historical architecture.",
+    "imageUrl": "/images/bishnudol.jpg",
+    "itemUrl": "place/bishnudol",
+    "speciality": "Guwahati",
+    "artifacts": [
+      "Temple architecture",
+      "Historical sculptures"
+    ],
+    "ratings": 4.2,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.1,
+        "review": "Rich cultural heritage!"
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "title": "Bishnupur Temples",
+    "slug": "BIS",
+    "description": "Group of ancient temples in Bishnupur showcasing unique architectural style and cultural heritage.",
+    "imageUrl": "/images/bishnupur-temples.jpg",
+    "itemUrl": "place/bishnupur-temples",
+    "speciality": "Kolkata",
+    "artifacts": [
+      "Temple architecture",
+      "Historical sculptures"
+    ],
+    "ratings": 4.4,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.3,
+        "review": "Beautiful temple complex!"
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "title": "Buddhish Caves, Junagadh",
+    "slug": "BUJ",
+    "description": "Ancient Buddhist caves featuring historical significance and architectural elements.",
+    "imageUrl": "/images/junagadh-buddhist-caves.jpg",
+    "itemUrl": "place/junagadh-buddhist-caves",
+    "speciality": "Rajkot",
+    "artifacts": [
+      "Cave architecture",
+      "Buddhist art"
+    ],
+    "ratings": 4.3,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.2,
+        "review": "Rich Buddhist heritage!"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "title": "Buddhist Cave No.01 to 51, Dhamnar, Tehsil Garoth",
+    "slug": "BSG",
+    "description": "Extensive complex of Buddhist caves featuring historical architecture and religious significance.",
+    "imageUrl": "/images/dhamnar-caves.jpg",
+    "itemUrl": "place/dhamnar-caves",
+    "speciality": "Bhopal",
+    "artifacts": [
+      "Cave architecture",
+      "Buddhist art"
+    ],
+    "ratings": 4.3,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.2,
+        "review": "Impressive Buddhist cave complex!"
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "title": "Buddhist Caves, Bagh",
+    "slug": "BUC",
+    "description": "Ancient Buddhist caves featuring historical significance and artistic elements.",
+    "imageUrl": "/images/bagh-caves.jpg",
+    "itemUrl": "place/bagh-caves",
+    "speciality": "Bhopal",
+    "artifacts": [
+      "Cave architecture",
+      "Buddhist art"
+    ],
+    "ratings": 4.2,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.1,
+        "review": "Fascinating historical caves!"
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "title": "Buddhist Caves, Kanheri",
+    "slug": "BCK",
+    "description": "Ancient Buddhist cave complex featuring historical architecture and religious significance.",
+    "imageUrl": "/images/kanheri-caves.jpg",
+    "itemUrl": "place/kanheri-caves",
+    "speciality": "Mumbai",
+    "artifacts": [
+      "Cave architecture",
+      "Buddhist art"
+    ],
+    "ratings": 4.5,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.4,
+        "review": "Spectacular Buddhist heritage!"
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "title": "Buddhist Monuments at Guntapalli",
+    "slug": "BUG",
+    "description": "Ancient Buddhist monuments showcasing historical significance and architectural elements.",
+    "imageUrl": "/images/guntapalli-monuments.jpg",
+    "itemUrl": "place/guntapalli-monuments",
+    "speciality": "Amaravati",
+    "artifacts": [
+      "Buddhist architecture",
+      "Historical monuments"
+    ],
+    "ratings": 4.2,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.1,
+        "review": "Rich Buddhist heritage!"
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "title": "Buddhist Monuments, Sanchi",
+    "slug": "BUD",
+    "description": "UNESCO World Heritage site featuring ancient Buddhist monuments and historical significance.",
+    "imageUrl": "/images/sanchi-monuments.jpg",
+    "itemUrl": "place/sanchi-monuments",
+    "speciality": "Bhopal",
+    "artifacts": [
+      "Buddhist architecture",
+      "Historical monuments"
+    ],
+    "ratings": 4.6,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.5,
+        "review": "Magnificent Buddhist heritage!"
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "title": "Cave at Badami",
+    "slug": "CAB",
+    "description": "Ancient cave temples featuring rock-cut architecture and historical significance.",
+    "imageUrl": "/images/badami-cave.jpg",
+    "itemUrl": "place/badami-cave",
+    "speciality": "Dharwad",
+    "artifacts": [
+      "Cave architecture",
+      "Rock-cut temples"
+    ],
+    "ratings": 4.4,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.3,
+        "review": "Spectacular cave temples!"
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "title": "Cave, Temple & Inscriptions, Bhaja",
+    "slug": "CTB",
+    "description": "Ancient site featuring caves, temples, and historical inscriptions.",
+    "imageUrl": "/images/bhaja-site.jpg",
+    "itemUrl": "place/bhaja-site",
+    "speciality": "Mumbai",
+    "artifacts": [
+      "Cave architecture",
+      "Historical inscriptions"
+    ],
+    "ratings": 4.5,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.4,
+        "review": "Rich historical heritage!"
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "title": "Cave, Temple and Inscriptions, Junnar",
+    "slug": "CTJ",
+    "description": "Ancient site featuring caves, temples, and historical inscriptions.",
+    "imageUrl": "/images/junnar-site.jpg",
+    "itemUrl": "place/junnar-site",
+    "speciality": "Mumbai",
+    "artifacts": [
+      "Cave architecture",
+      "Historical inscriptions"
+    ],
+    "ratings": 4.5,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.4,
+        "review": "Fascinating historical site!"
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "title": "Cave, Temple and Inscriptions, Karle",
+    "slug": "CTK",
+    "description": "Ancient site featuring caves, temples, and historical inscriptions.",
+    "imageUrl": "/images/karle-site.jpg",
+    "itemUrl": "place/karle-site",
+    "speciality": "Mumbai",
+    "artifacts": [
+      "Cave architecture",
+      "Historical inscriptions"
+    ],
+    "ratings": 4.5,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.4,
+        "review": "Rich historical heritage!"
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "title": "Cave, Temple and Inscriptions, Nasik",
+    "slug": "CTN",
+    "description": "Ancient site featuring caves, temples, and historical inscriptions.",
+    "imageUrl": "/images/nasik-site.jpg",
+    "itemUrl": "place/nasik-site",
+    "speciality": "Mumbai",
+    "artifacts": [
+      "Cave architecture",
+      "Historical inscriptions"
+    ],
+    "ratings": 4.4,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.3,
+        "review": "Fascinating historical site!"
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "title": "Cave, Temple and Inscriptions, Pitalkhora",
+    "slug": "CTP",
+    "description": "Ancient site featuring caves, temples, and historical inscriptions.",
+    "imageUrl": "/images/pitalkhora-site.jpg",
+    "itemUrl": "place/pitalkhora-site",
+    "speciality": "Mumbai",
+    "artifacts": [
+      "Cave architecture",
+      "Historical inscriptions"
+    ],
+    "ratings": 4.4,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.3,
+        "review": "Rich historical heritage!"
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "title": "Cave, Temple and Inscriptions, Shelar",
+    "slug": "CTS",
+    "description": "Ancient site featuring caves, temples, and historical inscriptions.",
+    "imageUrl": "/images/shelar-site.jpg",
+    "itemUrl": "place/shelar-site",
+    "speciality": "Mumbai",
+    "artifacts": [
+      "Cave architecture",
+      "Historical inscriptions"
+    ],
+    "ratings": 4.3,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.2,
+        "review": "Interesting historical site!"
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "title": "Cave, Temple and Inscriptions, Shelar",
+    "slug": "CTZ",
+    "description": "Ancient site featuring caves, temples, and historical inscriptions.",
+    "imageUrl": "/images/shelar-site-2.jpg",
+    "itemUrl": "place/shelar-site-2",
+    "speciality": "Mumbai",
+    "artifacts": [
+      "Cave architecture",
+      "Historical inscriptions"
+    ],
+    "ratings": 4.3,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.2,
+        "review": "Rich historical heritage!"
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "title": "Cave, Temple and Inscriptions, Shelar",
+    "slug": "CTY",
+    "description": "Ancient site featuring caves, temples, and historical inscriptions.",
+    "imageUrl": "/images/shelar-site-3.jpg",
+    "itemUrl": "place/shelar-site-3",
+    "speciality": "Mumbai",
+    "artifacts": [
+      "Cave architecture",
+      "Historical inscriptions"
+    ],
+    "ratings": 4.3,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.2,
+        "review": "Fascinating historical site!"
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "title": "Cave, Temple and Inscriptions, Shelar",
+    "slug": "CTX",
+    "description": "Ancient site featuring caves, temples, and historical inscriptions.",
+    "imageUrl": "/images/shelar-site-4.jpg",
+    "itemUrl": "place/shelar-site-4",
+    "speciality": "Mumbai",
+    "artifacts": [
+      "Cave architecture",
+      "Historical inscriptions"
+    ],
+    "ratings": 4.3,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.2,
+        "review": "Rich historical heritage!"
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "title": "Cave, Temple and Inscriptions, Shelar",
+    "slug": "CTW",
+    "description": "Ancient site featuring caves, temples, and historical inscriptions.",
+    "imageUrl": "/images/shelar-site-5.jpg",
+    "itemUrl": "place/shelar-site-5",
+    "speciality": "Mumbai",
+    "artifacts": [
+      "Cave architecture",
+      "Historical inscriptions"
+    ],
+    "ratings": 4.3,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.2,
+        "review": "Interesting historical site!"
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "title": "Cave, Temple and Inscriptions, Shelar",
+    "slug": "CTV",
+    "description": "Ancient site featuring caves, temples, and historical inscriptions.",
+    "imageUrl": "/images/shelar-site-6.jpg",
+    "itemUrl": "place/shelar-site-6",
+    "speciality": "Mumbai",
+    "artifacts": [
+      "Cave architecture",
+      "Historical inscriptions"
+    ],
+    "ratings": 4.3,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.2,
+        "review": "Rich historical heritage!"
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "title": "Cave, Temple and Inscriptions, Shelar",
+    "slug": "CTU",
+    "description": "Ancient site featuring caves, temples, and historical inscriptions.",
+    "imageUrl": "/images/shelar-site-7.jpg",
+    "itemUrl": "place/shelar-site-7",
+    "speciality": "Mumbai",
+    "artifacts": [
+      "Cave architecture",
+      "Historical inscriptions"
+    ],
+    "ratings": 4.3,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.2,
+        "review": "Fascinating historical site!"
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "title": "Cave, Temple and Inscriptions, Shelar",
+    "slug": "CTT",
+    "description": "Ancient site featuring caves, temples, and historical inscriptions.",
+    "imageUrl": "/images/shelar-site-8.jpg",
+    "itemUrl": "place/shelar-site-8",
+    "speciality": "Mumbai",
+    "artifacts": [
+      "Cave architecture",
+      "Historical inscriptions"
+    ],
+    "ratings": 4.3,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.2,
+        "review": "Rich historical heritage!"
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "title": "Cave, Temple and Inscriptions, Shelar",
+    "slug": "CTR",
+    "description": "Ancient site featuring caves, temples, and historical inscriptions.",
+    "imageUrl": "/images/shelar-site-9.jpg",
+    "itemUrl": "place/shelar-site-9",
+    "speciality": "Mumbai",
+    "artifacts": [
+      "Cave architecture",
+      "Historical inscriptions"
+    ],
+    "ratings": 4.3,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.2,
+        "review": "Fascinating historical site!"
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "title": "Cave, Temple and Inscriptions, Shelar",
+    "slug": "CTQ",
+    "description": "Ancient site featuring caves, temples, and historical inscriptions.",
+    "imageUrl": "/images/shelar-site-10.jpg",
+    "itemUrl": "place/shelar-site-10",
+    "speciality": "Mumbai",
+    "artifacts": [
+      "Cave architecture",
+      "Historical inscriptions"
+    ],
+    "ratings": 4.3,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.2,
+        "review": "Rich historical heritage!"
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "title": "Cave, Temple and Inscriptions, Shelar",
+    "slug": "CTP",
+    "description": "Ancient site featuring caves, temples, and historical inscriptions.",
+    "imageUrl": "/images/shelar-site-11.jpg",
+    "itemUrl": "place/shelar-site-11",
+    "speciality": "Mumbai",
+    "artifacts": [
+      "Cave architecture",
+      "Historical inscriptions"
+    ],
+    "ratings": 4.3,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.2,
+        "review": "Interesting historical site!"
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "title": "Cave, Temple and Inscriptions, Shelar",
+    "slug": "CTO",
+    "description": "Ancient site featuring caves, temples, and historical inscriptions.",
+    "imageUrl": "/images/shelar-site-12.jpg",
+    "itemUrl": "place/shelar-site-12",
+    "speciality": "Mumbai",
+    "artifacts": [
+      "Cave architecture",
+      "Historical inscriptions"
+    ],
+    "ratings": 4.3,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.2,
+        "review": "Rich historical heritage!"
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "title": "Cave, Temple and Inscriptions, Shelar",
+    "slug": "CTN",
+    "description": "Ancient site featuring caves, temples, and historical inscriptions.",
+    "imageUrl": "/images/shelar-site-13.jpg",
+    "itemUrl": "place/shelar-site-13",
+    "speciality": "Mumbai",
+    "artifacts": [
+      "Cave architecture",
+      "Historical inscriptions"
+    ],
+    "ratings": 4.3,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.2,
+        "review": "Fascinating historical site!"
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "title": "Cave, Temple and Inscriptions, Shelar",
+    "slug": "CTM",
+    "description": "Ancient site featuring caves, temples, and historical inscriptions.",
+    "imageUrl": "/images/shelar-site-14.jpg",
+    "itemUrl": "place/shelar-site-14",
+    "speciality": "Mumbai",
+    "artifacts": [
+      "Cave architecture",
+      "Historical inscriptions"
+    ],
+    "ratings": 4.3,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.2,
+        "review": "Rich historical heritage!"
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "title": "Cave, Temple and Inscriptions, Shelar",
+    "slug": "CTL",
+    "description": "Ancient site featuring caves, temples, and historical inscriptions.",
+    "imageUrl": "/images/shelar-site-15.jpg",
+    "itemUrl": "place/shelar-site-15",
+    "speciality": "Mumbai",
+    "artifacts": [
+      "Cave architecture",
+      "Historical inscriptions"
+    ],
+    "ratings": 4.3,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.2,
+        "review": "Interesting historical site!"
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "title": "Cave, Temple and Inscriptions, Shelar",
+    "slug": "CTK",
+    "description": "Ancient site featuring caves, temples, and historical inscriptions.",
+    "imageUrl": "/images/shelar-site-16.jpg",
+    "itemUrl": "place/shelar-site-16",
+    "speciality": "Mumbai",
+    "artifacts": [
+      "Cave architecture",
+      "Historical inscriptions"
+    ],
+    "ratings": 4.3,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.2,
+        "review": "Rich historical heritage!"
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "title": "Cave, Temple and Inscriptions, Shelar",
+    "slug": "CTJ",
+    "description": "Ancient site featuring caves, temples, and historical inscriptions.",
+    "imageUrl": "/images/shelar-site-17.jpg",
+    "itemUrl": "place/shelar-site-17",
+    "speciality": "Mumbai",
+    "artifacts": [
+      "Cave architecture",
+      "Historical inscriptions"
+    ],
+    "ratings": 4.3,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.2,
+        "review": "Fascinating historical site!"
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "title": "Cave, Temple and Inscriptions, Shelar",
+    "slug": "CTI",
+    "description": "Ancient site featuring caves, temples, and historical inscriptions.",
+    "imageUrl": "/images/shelar-site-18.jpg",
+    "itemUrl": "place/shelar-site-18",
+    "speciality": "Mumbai",
+    "artifacts": [
+      "Cave architecture",
+      "Historical inscriptions"
+    ],
+    "ratings": 4.3,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.2,
+        "review": "Rich historical heritage!"
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "title": "Cave, Temple and Inscriptions, Shelar",
+    "slug": "CTH",
+    "description": "Ancient site featuring caves, temples, and historical inscriptions.",
+    "imageUrl": "/images/shelar-site-19.jpg",
+    "itemUrl": "place/shelar-site-19",
+    "speciality": "Mumbai",
+    "artifacts": [
+      "Cave architecture",
+      "Historical inscriptions"
+    ],
+    "ratings": 4.3,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.2,
+        "review": "Fascinating historical site!"
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "title": "Cave, Temple and Inscriptions, Shelar",
+    "slug": "CTG",
+    "description": "Ancient site featuring caves, temples, and historical inscriptions.",
+    "imageUrl": "/images/shelar-site-20.jpg",
+    "itemUrl": "place/shelar-site-20",
+    "speciality": "Mumbai",
+    "artifacts": [
+      "Cave architecture",
+      "Historical inscriptions"
+    ],
+    "ratings": 4.3,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.2,
+        "review": "Rich historical heritage!"
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "title": "Cave, Temple and Inscriptions, Shelar",
+    "slug": "CTF",
+    "description": "Ancient site featuring caves, temples, and historical inscriptions.",
+    "imageUrl": "/images/shelar-site-21.jpg",
+    "itemUrl": "place/shelar-site-21",
+    "speciality": "Mumbai",
+    "artifacts": [
+      "Cave architecture",
+      "Historical inscriptions"
+    ],
+    "ratings": 4.3,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.2,
+        "review": "Interesting historical site!"
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "title": "Cave, Temple and Inscriptions, Shelar",
+    "slug": "CTE",
+    "description": "Ancient site featuring caves, temples, and historical inscriptions.",
+    "imageUrl": "/images/shelar-site-22.jpg",
+    "itemUrl": "place/shelar-site-22",
+    "speciality": "Mumbai",
+    "artifacts": [
+      "Cave architecture",
+      "Historical inscriptions"
+    ],
+    "ratings": 4.3,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.2,
+        "review": "Rich historical heritage!"
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "title": "Cave, Temple and Inscriptions, Shelar",
+    "slug": "CTD",
+    "description": "Ancient site featuring caves, temples, and historical inscriptions.",
+    "imageUrl": "/images/shelar-site-23.jpg",
+    "itemUrl": "place/shelar-site-23",
+    "speciality": "Mumbai",
+    "artifacts": [
+      "Cave architecture",
+      "Historical inscriptions"
+    ],
+    "ratings": 4.3,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.2,
+        "review": "Fascinating historical site!"
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "title": "Cave, Temple and Inscriptions, Shelar",
+    "slug": "CTC",
+    "description": "Ancient site featuring caves, temples, and historical inscriptions.",
+    "imageUrl": "/images/shelar-site-24.jpg",
+    "itemUrl": "place/shelar-site-24",
+    "speciality": "Mumbai",
+    "artifacts": [
+      "Cave architecture",
+      "Historical inscriptions"
+    ],
+    "ratings": 4.3,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.2,
+        "review": "Rich historical heritage!"
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "title": "Cave, Temple and Inscriptions, Shelar",
+    "slug": "CTB",
+    "description": "Ancient site featuring caves, temples, and historical inscriptions.",
+    "imageUrl": "/images/shelar-site-25.jpg",
+    "itemUrl": "place/shelar-site-25",
+    "speciality": "Mumbai",
+    "artifacts": [
+      "Cave architecture",
+      "Historical inscriptions"
+    ],
+    "ratings": 4.3,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.2,
+        "review": "Interesting historical site!"
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "title": "Cave, Temple and Inscriptions, Shelar",
+    "slug": "CTA",
+    "description": "Ancient site featuring caves, temples, and historical inscriptions.",
+    "imageUrl": "/images/shelar-site-26.jpg",
+    "itemUrl": "place/shelar-site-26",
+    "speciality": "Mumbai",
+    "artifacts": [
+      "Cave architecture",
+      "Historical inscriptions"
+    ],
+    "ratings": 4.3,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.2,
+        "review": "Rich historical heritage!"
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "title": "Cave, Temple and Inscriptions, Shelar",
+    "slug": "CTZ",
+    "description": "Ancient site featuring caves, temples, and historical inscriptions.",
+    "imageUrl": "/images/shelar-site-27.jpg",
+    "itemUrl": "place/shelar-site-27",
+    "speciality": "Mumbai",
+    "artifacts": [
+      "Cave architecture",
+      "Historical inscriptions"
+    ],
+    "ratings": 4.3,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 4.2,
+        "review": "Fascinating historical site!"
+      }
+    ]
+  }
+]

@@ -1,25 +1,79 @@
-Idea-
-AI-powered personalized chat bot for Walmart, that helps shoppers find and buy products easily.
+# Travel Ticket Booking Application
 
-Problems-
-Online shopping can be overwhelming. It's hard for shoppers to find exactly what they want, compare products, or get personalized help. This leads to frustrated customers and lost sales for Walmart. Our solution makes shopping easier and more personal. We're creating a smart AI Powered shopping assistant that understands each Customer's needs, helps them find the right products, chats with them and makes shopping at Walmart a better experience overall, also using user insights for customization.
+A modern travel ticket booking application built with Next.js, TypeScript, and Tailwind CSS.
 
-Solution-
-Live prototype url- https://sparkathon.ashutosh7i.dev
+## Project Structure
 
-Hello and greetings from team Geeks.js,
-=> Our solution integrates a Retrieval-Augmented Generation (RAG) based Large Language Model (LLM) chatbot into Walmart's e-commerce platform.
-This AI-powered assistant leverages the context of Walmart's entire product catalog & user's data to provide a highly personalized shopping experience.
-Here's how our solution works:
+```
+ticket_ginnie/
+├── app/                    # Next.js app directory
+│   ├── about/             # About page
+│   ├── destinations/      # Destinations page
+│   ├── packages/         # Travel packages page
+│   └── page.tsx          # Homepage
+├── components/           # Reusable components
+├── public/              # Static assets
+│   └── images/         # Image assets
+│       ├── destinations/  # Destination images
+│       └── packages/     # Package images
+└── styles/             # Global styles
+```
 
-1. Personalized Product Search: Users can search for products using chat, describing their needs conversationally. The chatbot understands context and preferences, suggesting the most relevant products.
-2. Product Recommendations: Based on user interactions, purchase history, and current queries, the bot provides tailored product recommendations, increasing the likelihood of purchases.
-3. Product Comparisons: Users can easily compare multiple products, with the bot highlighting key differences and similarities, helping in decision-making.
-4. Review Summaries: The bot can provide concise summaries of product reviews, saving users time and offering quick insights.
-5. Ratings Analysis: It can interpret and explain product ratings, giving users a clear understanding of product quality and customer satisfaction.
-6. Order Tracking: Users can inquire about their order status through the chat interface, receiving real-time updates.
-7. Shopping Insights: The system gathers valuable data on user preferences and shopping behaviors, which Walmart can use for inventory management and targeted marketing.
+## Image Requirements
 
-TechStack- we're using Next.js for the frontend, integrating it with Langchain for language processing, and Pinecone for efficient vector storage while following scalable patterns.
+To make the website fully functional, you need to add the following images:
 
-By providing this conversational and personalized shopping experience, we aim to significantly enhance user engagement, increase conversion rates, and provide Walmart with valuable customer insights, ultimately leading to increased sales and customer base.
+### Destination Images
+Place the following images in `public/images/destinations/`:
+- paris.jpg
+- bali.jpg
+- newyork.jpg
+- dubai.jpg
+- london.jpg
+- tokyo.jpg
+- sydney.jpg
+- santorini.jpg
+
+### Package Images
+Place the following images in `public/images/packages/`:
+- paris-romance.jpg
+- bali-adventure.jpg
+- nyc-explorer.jpg
+- dubai-luxury.jpg
+
+### Image Specifications
+- Recommended resolution: 1920x1080px or higher
+- Format: JPG or WebP
+- File size: Optimize for web (recommended under 500KB per image)
+- Aspect ratio: 16:9 for hero images, 4:3 for destination cards
+
+## Getting Started
+
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Add the required images to the appropriate directories
+4. Run the development server:
+   ```bash
+   npm run dev
+   ```
+5. Open [http://localhost:3000](http://localhost:3000) in your browser
+
+## Features
+
+- Modern and responsive design
+- Animated UI components using Framer Motion
+- Search functionality for destinations and packages
+- Beautiful image galleries
+- Interactive booking interface
+- Mobile-friendly layout
+
+## Technologies Used
+
+- Next.js 14
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- Lucide Icons

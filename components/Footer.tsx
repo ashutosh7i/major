@@ -1,79 +1,132 @@
+"use client";
+
+import React from "react";
 import Link from "next/link";
-import { JSX, SVGProps } from "react";
+import { motion } from "framer-motion";
+import { Plane, MapPin, Phone, Mail, Facebook, Twitter, Instagram, Youtube, LucideIcon } from "lucide-react";
 
-export default function Component() {
+interface FooterLink {
+  name: string;
+  href: string;
+  icon?: LucideIcon;
+}
+
+interface FooterSection {
+  title: string;
+  links: FooterLink[];
+}
+
+interface SocialLink extends FooterLink {
+  icon: LucideIcon;
+}
+
+const Footer = () => {
+  const footerSections: FooterSection[] = [
+    {
+      title: "Quick Links",
+      links: [
+        { name: "Home", href: "/" },
+        { name: "About Us", href: "/about" },
+        { name: "Destinations", href: "/destinations" },
+        { name: "Packages", href: "/packages" },
+        { name: "Contact", href: "/contact" },
+      ],
+    },
+    {
+      title: "Popular Destinations",
+      links: [
+        { name: "Paris, France", href: "/destinations/paris" },
+        { name: "New York, USA", href: "/destinations/new-york" },
+        { name: "Tokyo, Japan", href: "/destinations/tokyo" },
+        { name: "Dubai, UAE", href: "/destinations/dubai" },
+      ],
+    },
+    {
+      title: "Contact Info",
+      links: [
+        { name: "123 Travel Street", href: "#", icon: MapPin },
+        { name: "+1 (555) 123-4567", href: "tel:+15551234567", icon: Phone },
+        { name: "info@ticketginnie.com", href: "mailto:info@ticketginnie.com", icon: Mail },
+      ],
+    },
+  ];
+
+  const socialLinks: SocialLink[] = [
+    { name: "Facebook", href: "#", icon: Facebook },
+    { name: "Twitter", href: "#", icon: Twitter },
+    { name: "Instagram", href: "#", icon: Instagram },
+    { name: "YouTube", href: "#", icon: Youtube },
+  ];
+
   return (
-    <div className="dark bg-gray-900 text-white py-8">
-      <div className="container mx-auto px-4 md:px-6 flex flex-col md:flex-row items-center justify-between">
-        <div className="flex items-center space-x-4">
-          <Link href="https://github.com/ashutosh7i/farmiq" legacyBehavior>
-            <a className="text-white hover:text-gray-300">
-              <GithubIcon className="h-6 w-6" />
-              <span className="sr-only">GitHub</span>
-            </a>
-          </Link>
-          <Link href="https://twitter.com/ashutosh7i" legacyBehavior>
-            <a className="text-white hover:text-gray-300">
-              <TwitterIcon className="h-6 w-6" />
-              <span className="sr-only">Twitter</span>
-            </a>
-          </Link>
-          {/* New Links */}
-          <Link href="https://github.com/ashutosh7">About</Link>
-          <Link href="https://github.com/ashutosh7">Contact Us</Link>
-          {/* <Link href="/termsandconditions">Terms & Conditions</Link>
-          <Link href="/refundandcancellation">Refund & Cancellation</Link> */}
+    <footer className="bg-gray-900 text-white">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          {/* Brand Section */}
+          <div className="space-y-4">
+            <Link href="/" className="flex items-center space-x-2">
+               {/* <Plane className="h-8 w-8 text-primary" /> */}
+            <span className="text-4xl">🫖</span>
+              <span className="text-2xl font-bold bg-gradient-to-r from-primary to-blue-600 bg-clip-text text-transparent">
+                TicketGinnie
+              </span>
+            </Link>
+            <p className="text-gray-400">
+              Your trusted partner for unforgettable travel experiences. Book your next adventure with us!
+            </p>
+          </div>
+
+          {/* Footer Sections */}
+          {footerSections.map((section, index) => (
+            <motion.div
+              key={section.title}
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: index * 0.1 }}
+              className="space-y-4"
+            >
+              <h3 className="text-lg font-semibold text-white">{section.title}</h3>
+              <ul className="space-y-2">
+                {section.links.map((link) => (
+                  <li key={link.name}>
+                    <Link
+                      href={link.href}
+                      className="text-gray-400 hover:text-primary transition-colors flex items-center space-x-2"
+                    >
+                      {link.icon && <link.icon className="h-4 w-4" />}
+                      <span>{link.name}</span>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </motion.div>
+          ))}
         </div>
-        <p className="mt-4 md:mt-0 text-sm text-gray-300">
-          Made with 💖 by{" "}
-          <a
-            href="https://linkedin.com/in/ashutosh7i"
-            className="hover:text-gray-400"
-          >
-            Ashutosh7i
-          </a>
-          👨🏻‍💻.
-        </p>
+
+        {/* Social Links */}
+        <div className="mt-12 pt-8 border-t border-gray-800">
+          <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+            <p className="text-gray-400">
+              © {new Date().getFullYear()} TicketGinnie. All rights reserved.
+            </p>
+            <div className="flex space-x-4">
+              {socialLinks.map((social) => (
+                <motion.a
+                  key={social.name}
+                  href={social.href}
+                  whileHover={{ scale: 1.1 }}
+                  whileTap={{ scale: 0.95 }}
+                  className="text-gray-400 hover:text-primary transition-colors"
+                >
+                  <social.icon className="h-6 w-6" />
+                </motion.a>
+              ))}
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
+    </footer>
   );
-}
+};
 
-function GithubIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
-  return (
-    <svg
-      {...props}
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
-      <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4" />
-      <path d="M9 18c-4.51 2-5-2-7-2" />
-    </svg>
-  );
-}
-
-function TwitterIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
-  return (
-    <svg
-      {...props}
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
-      <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z" />
-    </svg>
-  );
-}
+export default Footer;

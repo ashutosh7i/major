@@ -1,171 +1,121 @@
-// "use client";
-// import React from "react";
-// import { Input } from "@/components/ui/input";
-// import { Button } from "@/components/ui/button";
-// import { Sheet, SheetTrigger, SheetContent } from "@/components/ui/sheet";
-// import { ShoppingCart, Search, Plus, Menu, Youtube } from "lucide-react";
-// import { useRouter } from "next/navigation";
-// import Link from "next/link";
-
-// export default function Navbar() {
-//   const router = useRouter();
-//   return (
-//     <header className="bg-primary text-primary-foreground flex items-center justify-between px-4 py-3 shadow fixed top-0 left-0 w-full z-50">
-//       <Sheet>
-//         <SheetTrigger asChild>
-//           <Button variant="ghost" size="icon">
-//             <Menu className="h-6 w-6" />
-//             <span className="sr-only">Menu</span>
-//           </Button>
-//         </SheetTrigger>
-//         <SheetContent side="left" className="w-64">
-//           <div className="p-4 ">
-//             <Link href="#" className="font-medium" prefetch={false}>
-//               Home
-//             </Link>
-//             <Link href="#" className="font-medium" prefetch={false}>
-//               Shop
-//             </Link>
-//             <Link href="#" className="font-medium" prefetch={false}>
-//               Deals
-//             </Link>
-//             <Link href="#" className="font-medium" prefetch={false}>
-//               Grocery
-//             </Link>
-//             <Link href="#" className="font-medium" prefetch={false}>
-//               Pharmacy
-//             </Link>
-//             <Link href="#" className="font-medium" prefetch={false}>
-//               Account
-//             </Link>
-//           </div>
-//         </SheetContent>
-//       </Sheet>
-//       <Link href="/" className="flex items-center gap-2" prefetch={false}>
-//         <StoreIcon />
-//       </Link>
-//       <div className="relative flex-1 px-2 max-w-md ">
-//         <div className="relative">
-//           <Input
-//             type="search"
-//             placeholder="Search Walmart"
-//             className="text-white w-full bg-primary-foreground/10 rounded-full pl-10 pr-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary"
-//           />
-//           <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-5 w-5 text-muted-foreground text-white" />
-//         </div>
-//       </div>
-//       <div className="flex items-center gap-4">
-//         <Button
-//           onClick={() => {
-//             router.push("https://youtu.be/aKDy0RSZz-A");
-//           }}
-//         >
-//           Demo link <Youtube fill="red" className="pl-1" />
-//         </Button>
-//         <Button variant="ghost" size="icon">
-//           <ShoppingCart className="h-6 w-6" />
-//           <span className="sr-only">Cart</span>
-//         </Button>
-//       </div>
-//     </header>
-//   );
-// }
-
-// function StoreIcon() {
-//   return (
-//     <svg xmlns="http://www.w3.org/2000/svg" width="47" height="50">
-//       <g>
-//         <title>Layer 1</title>
-//         <g id="layer1">
-//           <path
-//             d="m23.548721,17.863708c1.023743,0 1.866257,-0.532471 1.979996,-1.219971l1.011261,-11.430054c0,-1.130005 -1.32251,-2.057495 -2.987503,-2.057495c-1.662506,0 -2.983749,0.92749 -2.983749,2.057495l1.008743,11.430054c0.112503,0.6875 0.955002,1.219971 1.975006,1.219971l-0.003998,0"
-//             id="path2974"
-//             fill-rule="nonzero"
-//             fill="#fdbb30"
-//           />
-//           <path
-//             d="m17.371231,21.433716c0.513748,-0.88501 0.473755,-1.881226 -0.066193,-2.32251l-9.395004,-6.589966c-0.976303,-0.565002 -2.441299,0.116211 -3.272552,1.557495c-0.833755,1.438721 -0.686249,3.047485 0.288742,3.612488l10.40126,4.84375c0.651245,0.241272 1.537491,-0.222534 2.047501,-1.107483l-0.003998,0.005981"
-//             id="path2976"
-//             fill-rule="nonzero"
-//             fill="#fdbb30"
-//           />
-//           <path
-//             d="m29.731232,21.42749c0.512497,0.88501 1.395004,1.348755 2.046249,1.107483l10.402496,-4.84375c0.980011,-0.565002 1.12001,-2.173706 0.292511,-3.612488c-0.835007,-1.441223 -2.302505,-2.122499 -3.27626,-1.557495l-9.395004,6.590027c-0.537491,0.441223 -0.577499,1.4375 -0.066193,2.322449l-0.003998,-0.005981"
-//             id="path2978"
-//             fill-rule="nonzero"
-//             fill="#fdbb30"
-//           />
-//           <path
-//             d="m23.548721,32.140015c1.023743,0 1.866257,0.528748 1.979996,1.216248l1.011261,11.428772c0,1.132507 -1.32251,2.058716 -2.987503,2.058716c-1.662506,0 -2.983749,-0.926208 -2.983749,-2.058716l1.008743,-11.428772c0.112503,-0.6875 0.955002,-1.216248 1.975006,-1.216248l-0.003998,0"
-//             id="path2980"
-//             fill-rule="nonzero"
-//             fill="#fdbb30"
-//           />
-//           <path
-//             d="m29.731232,28.570007c0.512497,-0.88623 1.395004,-1.347473 2.046249,-1.102478l10.402496,4.838745c0.980011,0.566223 1.12001,2.176208 0.292511,3.617493c-0.835007,1.436218 -2.302505,2.118713 -3.27626,1.554993l-9.395004,-6.58374c-0.537491,-0.446289 -0.577499,-1.442505 -0.066193,-2.326233l-0.003998,0.000977"
-//             id="path2982"
-//             fill-rule="nonzero"
-//             fill="#fdbb30"
-//           />
-//           <path
-//             d="m17.371231,28.568726c0.513748,0.883728 0.473755,1.880005 -0.066193,2.326233l-9.395004,6.58374c-0.976257,0.563782 -2.441254,-0.118713 -3.272507,-1.554993c-0.833801,-1.441223 -0.686295,-3.051208 0.288696,-3.617493l10.40126,-4.838745c0.651245,-0.244995 1.53749,0.216248 2.047502,1.102478l-0.003998,-0.000977"
-//             id="path2984"
-//             fill-rule="nonzero"
-//             fill="#fdbb30"
-//           />
-//         </g>
-//       </g>
-//     </svg>
-//   );
-// }
 "use client";
-import React from "react";
+
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
-import { FerrisWheel } from "lucide-react";
-function Navbar() {
+import { usePathname } from "next/navigation";
+import { motion } from "framer-motion";
+import { ShoppingCart, Search, Menu, X, Plane, MapPin, Calendar, Info, Phone, Mail } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+
+const Navbar = () => {
+  const [isScrolled, setIsScrolled] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
+  const pathname = usePathname();
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 20);
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  const navItems = [
+    { name: "Home", href: "/" },
+    { name: "About", href: "/about" },
+    { name: "Destinations", href: "/destinations" },
+    { name: "Packages", href: "/packages" },
+    { name: "Contact", href: "/contact" },
+  ];
+
   return (
-    // <header className="px-4 lg:px-6 h-14 flex items-center">
-    <header className="flex items-center justify-between px-4 py-3 shadow fixed top-0 left-0 w-full z-50">
-      <Link
-        href="#"
-        className="flex items-center justify-center"
-        prefetch={false}
-      >
-        <FerrisWheel className="h-6 w-6" />
-        <span className="sr-only">Museum Name</span>
-      </Link>
-      <nav className="ml-auto flex gap-4 sm:gap-6">
-        <Link
-          href="#"
-          className="text-sm font-medium hover:underline underline-offset-4"
-          prefetch={false}
-        >
-          Exhibits
-        </Link>
-        <Link
-          href="#"
-          className="text-sm font-medium hover:underline underline-offset-4"
-          prefetch={false}
-        >
-          Collections
-        </Link>
-        <Link
-          href="#"
-          className="text-sm font-medium hover:underline underline-offset-4"
-          prefetch={false}
-        >
-          About
-        </Link>
-        <Link
-          href="#"
-          className="text-sm font-medium hover:underline underline-offset-4"
-          prefetch={false}
-        >
-          Visit
-        </Link>
-      </nav>
-    </header>
+    <motion.nav
+      initial={{ opacity: 0, y: -20 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.3 }}
+      className={`fixed w-full z-[9999] transition-all duration-300 backdrop-blur-md bg-white border-b border-gray-200 ${
+        isScrolled ? "shadow-lg" : "shadow-md"
+      }`}
+    >
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex justify-between items-center h-16">
+          {/* Logo */}
+          <Link href="/" className="flex items-center space-x-2">
+            {/* <Plane className="h-8 w-8 text-primary" /> */}
+            <span className="text-4xl">🫖</span>
+            <span className="text-2xl font-bold bg-gradient-to-r from-primary to-blue-600 bg-clip-text text-transparent">
+              TicketGinnie
+            </span>
+          </Link>
+
+          {/* Desktop Navigation */}
+          <div className="hidden md:flex items-center space-x-8">
+            {navItems.map((item) => (
+              <Link
+                key={item.name}
+                href={item.href}
+                className={`relative text-sm font-medium transition-colors hover:text-primary ${
+                  pathname === item.href ? "text-primary" : "text-gray-700"
+                }`}
+              >
+                {item.name}
+                {pathname === item.href && (
+                  <motion.div
+                    layoutId="navbar-indicator"
+                    className="absolute -bottom-1 left-0 right-0 h-0.5 bg-primary"
+                  />
+                )}
+              </Link>
+            ))}
+          </div>
+
+          {/* Right Side Actions */}
+          <div className="flex items-center space-x-4">
+            <div className="hidden md:flex items-center space-x-2">
+              <Input
+                type="search"
+                placeholder="Search destinations..."
+                className="w-48 bg-gray-50 border-gray-200 focus:border-primary"
+              />
+              <Button variant="outline" size="icon" className="hover:bg-gray-100">
+                <Search className="h-4 w-4" />
+              </Button>
+              <Button variant="outline" size="icon" className="hover:bg-gray-100">
+                <ShoppingCart className="h-4 w-4" />
+              </Button>
+            </div>
+
+            {/* Mobile Menu Button */}
+            <Sheet open={isOpen} onOpenChange={setIsOpen}>
+              <SheetTrigger asChild>
+                <Button variant="ghost" size="icon" className="md:hidden hover:bg-gray-100">
+                  <Menu className="h-6 w-6" />
+                </Button>
+              </SheetTrigger>
+              <SheetContent side="right" className="w-[300px] sm:w-[400px]">
+                <div className="flex flex-col space-y-4 mt-4">
+                  {navItems.map((item) => (
+                    <Link
+                      key={item.name}
+                      href={item.href}
+                      className={`text-lg font-medium transition-colors hover:text-primary ${
+                        pathname === item.href ? "text-primary" : "text-gray-700"
+                      }`}
+                      onClick={() => setIsOpen(false)}
+                    >
+                      {item.name}
+                    </Link>
+                  ))}
+                </div>
+              </SheetContent>
+            </Sheet>
+          </div>
+        </div>
+      </div>
+    </motion.nav>
   );
-}
+};
 
 export default Navbar;

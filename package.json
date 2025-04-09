@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@cashfreepayments/cashfree-js": "^1.0.5",
     "@langchain/openai": "^0.2.6",
     "@langchain/pinecone": "^0.0.8",
     "@pinecone-database/pinecone": "^3.0.0",
@@ -21,10 +22,13 @@
     "@radix-ui/react-select": "^2.1.1",
     "@radix-ui/react-slot": "^1.1.0",
     "@radix-ui/react-tooltip": "^1.1.2",
+    "cashfree-pg": "^4.1.2",
     "cheerio": "^1.0.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "dotenv": "^16.4.5",
+    "framer-motion": "^12.6.2",
+    "jspdf": "^3.0.1",
     "langchain": "^0.2.16",
     "lucide-react": "^0.427.0",
     "next": "14.2.5",
